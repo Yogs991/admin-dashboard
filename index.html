@@ -10,64 +10,90 @@
 </head>
 <body>
     <div class="page-container">
-        <div class="dashboard">
-            <div class="dashboard-item">
-                <span class="material-symbols-outlined">view_comfy_alt</span>
+        <div class="sidebar">
+            <div class="sidebar-title">
+                <i><span id="title-icon" class="material-symbols-outlined">view_comfy_alt</span></i>
                 <h1>Dashboard</h1>
             </div>
-            <div class="dashboard-item">
-                <span class="material-symbols-outlined">home</span>
-                <h3>Home</h3>
+            <div class="sidebar-menu">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i><span class="material-symbols-outlined">home</span></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><span class="material-symbols-outlined">person</span></i>
+                            <span>Profile</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><span class="material-symbols-outlined">chat_bubble</span></i>
+                            <span>Messages</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><span class="material-symbols-outlined">schedule</span></i>
+                            <span>History</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><span class="material-symbols-outlined">task</span></i>
+                            <span>Tasks</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><span class="material-symbols-outlined">groups</span></i>
+                            <span>Communities</span>
+                        </a>
+                    </li>
+                </ul> 
             </div>
-            <div class="dashboard-item">
-                <span class="material-symbols-outlined">person</span>
-                <h3>Profile</h3>
-            </div>
-            <div class="dashboard-item">
-                <span class="material-symbols-outlined">chat_bubble</span>
-                <h3>Messages</h3>
-            </div>
-            <div class="dashboard-item">
-                <span class="material-symbols-outlined">schedule</span>
-                <h3>History</h3>
-            </div>
-            <div class="dashboard-item">
-                <span class="material-symbols-outlined">task</span>
-                <h3>Tasks</h3>
-            </div>
-            <div class="dashboard-item">
-                <span class="material-symbols-outlined">groups</span>
-                <h3>Communities</h3>
-            </div>
-            <div class="dashboard-item">
-                <span class="material-symbols-outlined">settings</span>
-                <h3>Settings</h3>
-            </div>
-            <div class="dashboard-item">
-                <span class="material-symbols-outlined">help</span>
-                <h3>Support</h3>
-            </div>
-            <div class="dashboard-item">
-                <span class="material-symbols-outlined">verified_user</span>
-                <h3>Privacy</h3>
-            </div>
+            <div class="sidebar-options">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i><span class="material-symbols-outlined">settings</span></i>
+                            <span>Settings</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><span class="material-symbols-outlined">help</span></i>
+                            <span>Support</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i><span class="material-symbols-outlined">verified_user</span></i>
+                            <span>Privacy</span>
+                         </a>
+                    </li>
+                </ul>
+            </div>  
         </div>
-        <div class="navbar">
-            <div class="input">
-                <span class="material-symbols-outlined">search</span>
+        <!-- <div class="header">
+            <div class="search">
+                <span id="search-icon" class="material-symbols-outlined">search</span>
                 <input type="text" placeholder="Search">
             </div>
             <div class="user">
                 <span class="material-symbols-outlined">notifications_active</span>
-                <img src="" alt=""> <!--User Image Top right-->
+                <img class="mypfp" src="./image/myprofile.jpg" alt="profile pic">
                 <h3>Lefteris B</h3>
             </div>
             <div class="profile">
-                <img src="" alt=""> <!--User Image Bottom Left-->
+                <img class="mypfp" src="./image/myprofile.jpg" alt="profile pic">
                 <p>Hi there,</p> <br>
                 <h2>Lefteris B (@Lefteris)</h2>
             </div>
-            <div class="nav-buttons">
+            <div class="navButtons">
                 <button>New</button>
                 <button>Upload</button>
                 <button>Share</button>
@@ -81,54 +107,54 @@
                     <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Primis est maecenas interdum finibus faucibus ultrices inceptos consequat platea. 
                         Augue integer nibh lacus metus vivamus
                     </p>
-                    <span class="material-symbols-outlined">favorite</span>
-                    <span class="material-symbols-outlined">visibility</span>
-                    <span class="material-symbols-outlined">share</span>
+                    <a href="#"><span class="material-symbols-outlined">favorite</span></a href="#">
+                    <a href="#"><span class="material-symbols-outlined">visibility</span></a href="#">
+                    <a href="#"><span class="material-symbols-outlined">share</span></a>
                 </div>
                 <div class="project-item">
                     <h3>Less Cool Project</h3>
                     <p>Sociosqu pulvinar praesent natoque ridiculus felis porta molestie class urna? 
                         Inceptos dapibus maximus odio justo adipiscing, gravida a.
                     </p>
-                    <span class="material-symbols-outlined">favorite</span>
-                    <span class="material-symbols-outlined">visibility</span>
-                    <span class="material-symbols-outlined">share</span>
+                    <a href="#"><span class="material-symbols-outlined">favorite</span></a href="#">
+                    <a href="#"><span class="material-symbols-outlined">visibility</span></a href="#">
+                    <a href="#"><span class="material-symbols-outlined">share</span></a href="#">
                 </div>
                 <div class="project-item">
                     <h3>Impossible App</h3>
                     <p>Torquent dolor magnis class nam aptent ipsum maecenas. Potenti sociosqu rutrum metus sagittis et netus. 
                         Auctor hac risus conubia porttitor parturient inceptos porttitor massa
                     </p>
-                    <span class="material-symbols-outlined">favorite</span>
-                    <span class="material-symbols-outlined">visibility</span>
-                    <span class="material-symbols-outlined">share</span>
+                    <a href="#"><span class="material-symbols-outlined">favorite</span></a href="#">
+                    <a href="#"><span class="material-symbols-outlined">visibility</span></a href="#">
+                    <a href="#"><span class="material-symbols-outlined">share</span></a href="#">
                 </div>
                 <div class="project-item">
                     <h3>Easy Peasy App</h3>
                     <p>Ultrices malesuada quam ad duis sapien; lacus suscipit mauris tempus. Mattis orci feugiat fames scelerisque vel dapibus duis. 
                         Tortor aliquam amet dui a eu facilisi nec duis. 
                     </p>
-                    <span class="material-symbols-outlined">favorite</span>
-                    <span class="material-symbols-outlined">visibility</span>
-                    <span class="material-symbols-outlined">share</span>
+                    <a href="#"><span class="material-symbols-outlined">favorite</span></a href="#">
+                    <a href="#"><span class="material-symbols-outlined">visibility</span></a href="#">
+                    <a href="#"><span class="material-symbols-outlined">share</span></a href="#">
                 </div>
                 <div class="project-item">
                     <h3>Ad Blocker</h3>
                     <p>Turpis consectetur interdum pulvinar aliquet laoreet. 
                         Adipiscing fames sagittis placerat arcu dapibus malesuada, inceptos cras parturient.
                     </p>
-                    <span class="material-symbols-outlined">favorite</span>
-                    <span class="material-symbols-outlined">visibility</span>
-                    <span class="material-symbols-outlined">share</span>
+                    <a href="#"><span class="material-symbols-outlined">favorite</span></a href="#">
+                    <a href="#"><span class="material-symbols-outlined">visibility</span></a href="#">
+                    <a href="#"><span class="material-symbols-outlined">share</span></a href="#">
                 </div>
                 <div class="project-item">
                     <h3>Money Maker</h3>
                     <p>Dapibus conubia lacus semper dui; sem litora. Vestibulum nisi torquent consectetur id rhoncus nibh non. 
                         Nostra etiam penatibus feugiat condimentum volutpat integer. 
                     </p>
-                    <span class="material-symbols-outlined">favorite</span>
-                    <span class="material-symbols-outlined">visibility</span>
-                    <span class="material-symbols-outlined">share</span>
+                    <a href="#"><span class="material-symbols-outlined">favorite</span></a href="#">
+                    <a href="#"><span class="material-symbols-outlined">visibility</span></a href="#">
+                    <a href="#"><span class="material-symbols-outlined">share</span></a href="#">
                 </div>
             </div>
             <div class="announcements">
@@ -166,7 +192,7 @@
                     <p>No traffic Maker</p>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </body>
 </html>
